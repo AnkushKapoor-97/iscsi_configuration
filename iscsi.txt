@@ -52,7 +52,7 @@ iscsi configuration on centos7
 
 > cd ..
 
-> cd iqn.2022-12.cdac.acts.hpcsa.sbm:disk1/tpg1/luns
+> cd /iscsi/iqn.2022-12.cdac.acts.hpcsa.sbm:disk1/tpg1/luns
 
 > create /backstores/block/block1
 
