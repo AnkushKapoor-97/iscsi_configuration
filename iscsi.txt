@@ -12,7 +12,6 @@ iscsi configuration on centos7
 
 # systemctl start iscsi
 
-# systemctl status iscsi
 
 *****On iscsi-server*****
 -------------------------
@@ -70,6 +69,10 @@ iscsi configuration on centos7
 -------------------------
 
 # iscsiadm -m discovery -t st -p 192.168.82.XXX --login                -->  #XXX=server IP :: Note Ensure firewalld service is disabled on both the machines
+
+# systemctl start iscsi
+
+# systemctl status iscsi
 
 # fdisk -l
 
