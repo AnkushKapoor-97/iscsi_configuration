@@ -10,7 +10,7 @@ iscsi configuration on centos7
 
 # vi initiatorname.iscsi			>> # change client name to >>  iqn.2022-12.acts.student:306631cea220
 
-# systemctl start iscsi
+# systemctl start iscsi          -> check status after iscsi discovery step for iscsi-client
 
 
 *****On iscsi-server*****
