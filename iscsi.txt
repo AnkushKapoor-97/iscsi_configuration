@@ -19,6 +19,9 @@ iscsi configuration on centos7
 
 (Add Two Hard disk sdb and sdc of 20GB each)
 
+# firewall-cmd --permanent --add-port=3260/tcp
+
+# systemctl restart firwalld
 
 # lsblk     or  # sfdisk -s
 
