@@ -21,7 +21,7 @@ iscsi configuration on centos7
 
 # firewall-cmd --permanent --add-port=3260/tcp
 
-# systemctl restart firwalld
+# systemctl restart firewalld
 
 # lsblk     or  # sfdisk -s
 
